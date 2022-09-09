@@ -1,15 +1,15 @@
 # CMake version
-cmake_minimum_required(VERSION 3.20)
+cmake_minimum_required(VERSION 3.24)
 
 # Settings
 set(CMAKE_CXX_STANDARD 20)
 
 # Project name
-project(HelloOpenCv)
+project(hello_opencv)
 
 # Find libraries
-find_package(fmt)
-find_package(opencv REQUIRED)
+find_package(fmt REQUIRED)
+find_package(OpenCV REQUIRED)
 
 # Add include directories
 include_directories(${OpenCV_INCLUDE_DIRS})

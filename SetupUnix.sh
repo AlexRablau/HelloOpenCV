@@ -1,4 +1,5 @@
 #!/bin/bash
+# Setup Unix Makefiles
 
 # Remove existing build folder
 if [ -d "build" ]; then

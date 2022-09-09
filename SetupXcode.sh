@@ -1,4 +1,5 @@
 #!/bin/bash
+# Setup XCode Project
 
 # Remove existing build folder
 if [ -d "build" ]; then

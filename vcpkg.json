@@ -1,12 +1,12 @@
 {
-  "name": "HelloOpenCv",
+  "name": "hello-opencv",
   "version": "1.0",
   "dependencies": [
     {
       "name": "fmt"
     },
     {
-      "name": "opencv"
+      "name": "OpenCV"
     }
   ]
 }
